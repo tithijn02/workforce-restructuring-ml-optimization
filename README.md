@@ -43,11 +43,11 @@ By aligning analytics with real-world constraints, the solution balances efficie
 
 ## 🛠️ How it was done
 
-The project began by analyzing historical attrition data to identify key drivers of employee exit, such as overtime, job mobility, tenure, and satisfaction :contentReference[oaicite:0]{index=0}. A logistic regression model was selected for its strong performance and interpretability, with techniques like SMOTE applied to address class imbalance.
+The project began by analyzing historical attrition data to identify key drivers of employee exit, such as overtime, job mobility, tenure, and satisfaction. A logistic regression model was selected for its strong performance and interpretability, with techniques like SMOTE applied to address class imbalance.
 
 Predicted probabilities were then used to form **objectively defined employee groups**, ensuring compliance with labour regulations that prohibit individual targeting. These groups were constructed using business-relevant and legally neutral features such as department, role, and workload.
 
-An optimization model was developed in Excel using Solver to minimize total severance cost while satisfying key constraints, including workforce reduction targets, cost savings requirements, and department-level retention thresholds :contentReference[oaicite:1]{index=1}.
+An optimization model was developed in Excel using Solver to minimize total severance cost while satisfying key constraints, including workforce reduction targets, cost savings requirements, and department-level retention thresholds.
 
 The final solution identifies the most efficient groups to target, balancing predictive accuracy, operational feasibility, and legal compliance.
 
